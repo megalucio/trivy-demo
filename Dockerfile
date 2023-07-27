@@ -8,7 +8,7 @@ EXPOSE 22
 MAINTAINER admin <admin@admin.local>
 
 #Apt update and apt install should be on one line to avoid redundant files
-RUN apt-get update
+# RUN apt-get update
 
 #Also not adding -y might cause problems with apt waiting for user input
 # RUN apt-get install openssh-server

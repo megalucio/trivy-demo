@@ -11,7 +11,7 @@ MAINTAINER admin <admin@admin.local>
 RUN apt-get update
 
 #Also not adding -y might cause problems with apt waiting for user input
-RUN apt-get install openssh-server
+# RUN apt-get install openssh-server
 
 # Not specifying a root user means the container will run as root
 USER 10001

@@ -1,5 +1,5 @@
 # We shouldn't be using Latest
-FROM ubuntu:latest
+FROM ubuntu:20.02
 
 # Exposing port 22 and using SSHD in a container is an anti-pattern in most cases
 EXPOSE 22
